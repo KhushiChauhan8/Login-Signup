@@ -148,7 +148,7 @@ export default function AuthForm() {
           {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
           <button
             onClick={() => setIsLogin(!isLogin)}
-            className="text-blue-400 hover:underline"
+            className="text-blue-400 hover:underline cursor-pointer"
           >
             {isLogin ? "Sign Up" : "Login"}
           </button>
